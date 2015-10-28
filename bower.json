@@ -1,0 +1,18 @@
+{
+  "name": "08-beer-layout",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jeremy Glover <jeremyglover33@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
