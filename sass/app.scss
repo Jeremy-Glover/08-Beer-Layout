@@ -1,7 +1,33 @@
+@import "normalize";
+
+$fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+
+@import "font-awesome";
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: auto;
+  max-width: 1040px;
+
+  border: 2px rgb(125, 177, 208) solid;
+}
+
+.three-up {
+  margin: 10px;
+
+  flex: 1 0 calc(100% / 3 - 20px);
+  text-align: center;
 }
