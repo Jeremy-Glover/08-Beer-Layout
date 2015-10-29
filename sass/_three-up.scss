@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1040px;
+  border: 3px $brand_blue solid;
+}
+
+.three-up {
+  margin: 10px;
+  flex: 1 0 calc(100% / 3 - 20px);
+  padding: 10px;
+  text-align: center;
+  color: $brand_blue;
+
+}
+
+img {
+  height: 7rem;
+}
+
+h4 {
+  color: rgb(165, 175, 182);
+}
