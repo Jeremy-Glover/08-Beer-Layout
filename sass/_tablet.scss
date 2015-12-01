@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1024px) {
+  .container  {
+    display: flex;
+    flex-direction: column;
+    }
+
+  .three-up {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    }
+
+   h2, h4, p, .style-button, .bottle {
+     margin: 8px;
+   }
+  }
