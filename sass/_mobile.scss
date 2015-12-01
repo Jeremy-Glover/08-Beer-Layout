@@ -1,5 +1,6 @@
 @media only screen and (max-width: 460px) {
-.container {
+.three-up {
+  display: flex;
   flex-direction: column;
   margin: 10px;
 }

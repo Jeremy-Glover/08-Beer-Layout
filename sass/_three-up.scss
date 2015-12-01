@@ -6,6 +6,10 @@
   border: 3px $brand_blue solid;
 }
 
+h4 {
+  color: rgb(165, 175, 182);
+}
+
 .three-up {
   margin: 10px;
   flex: 1 0 calc(100% / 3 - 20px);
@@ -15,10 +19,6 @@
 
 }
 
-img {
-  height: 7rem;
-}
+.bottle {
 
-h4 {
-  color: rgb(165, 175, 182);
 }

@@ -1,15 +1,16 @@
-@media only screen and (max-width: 1023px) and (min-width: 461px) {
+@media only screen and (max-width: 1024px) {
   .container  {
     display: flex;
     flex-direction: column;
-
     }
-  article {
+
+  .three-up {
     display: flex;
     text-align: left;
-    justify-content: space-between;
     align-items: center;
-    margin: 10px;
-    align-items: baseline;
     }
+
+   h2, h4, p, .style-button, .bottle {
+     margin: 8px;
+   }
   }
